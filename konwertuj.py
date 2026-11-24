@@ -59,4 +59,4 @@ def konwertuj_md_na_json(nazwa_pliku_md, nazwa_pliku_json):
     print(f"Pomyślnie skonwertowano plik! Przetworzono {len(questions)} pytań i zapisano do '{nazwa_pliku_json}'.")
 
 if __name__ == "__main__":
-    konwertuj_md_na_json('notatka.md', 'pytania_sieci.json')
+    konwertuj_md_na_json('notatka.md', 'pytania.json')

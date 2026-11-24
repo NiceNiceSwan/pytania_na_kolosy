@@ -72,6 +72,6 @@ def uruchom_quiz(pytania):
     print(f"\nKoniec quizu! Twój wynik: {punkty} / {i}")
 
 if __name__ == "__main__":
-    plik_json = "pytania_sieci.json"
+    plik_json = "pytania.json"
     baza_pytan = wczytaj_pytania(plik_json)
     uruchom_quiz(baza_pytan)
